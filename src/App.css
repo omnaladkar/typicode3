@@ -1,0 +1,39 @@
+.main-body{
+  margin-top: 50px;
+}
+.avatar.avatar-lg {
+  font-size: 4rem;
+  width: 7.5rem;
+  height: 7.5rem;
+  background-color: #c7cecc;
+  border-radius: 50%;
+}
+
+.btn-primary {
+  margin-top: 40px;
+  width: 200px;
+}
+.list-group{
+  margin-top: 5rem;
+  font-weight: bold;
+}
+ul li.list-group-item:before {
+  content: "–";
+  position: absolute;
+  /*change margin to move dash around*/
+  margin-left: -1em;
+  margin-right: -1em;
+}
+ul li.list-group-dot-item {
+ 
+
+  border: 1px solid rgba(214, 49, 49, 0.125);
+  padding: .5rem 3rem;
+  list-style-position: inside;
+}
+
+
+.list-group-item{
+
+  padding: .5rem 3rem;
+}
